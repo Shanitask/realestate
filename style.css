@@ -1,0 +1,1219 @@
+                                                                        * {
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        body,
+                                                                        html {
+                                                                            color: #444444;
+                                                                            overflow-x: hidden;
+                                                                        }
+                                                                        
+                                                                        a {
+                                                                            color: white;
+                                                                            text-decoration: none;
+                                                                        }
+                                                                        
+                                                                        a:hover {
+                                                                            color: #3b8af2;
+                                                                            text-decoration: none;
+                                                                        }
+                                                                        
+                                                                        h1,
+                                                                        h2,
+                                                                        h3,
+                                                                        h4,
+                                                                        h5,
+                                                                        h6 {
+                                                                            font-family: "Roboto", sans-serif;
+                                                                        }
+                                                                        /* ==========sticky-icon==========*/
+                                                                        
+                                                                        .icon3-bar {
+                                                                            position: fixed;
+                                                                            top: 50%;
+                                                                            -webkit-transform: translateY(-50%);
+                                                                            -ms-transform: translateY(-50%);
+                                                                            transform: translateY(-50%);
+                                                                            z-index: 100;
+                                                                        }
+                                                                        
+                                                                        .icon3-bar a {
+                                                                            display: block;
+                                                                            text-align: center;
+                                                                            padding: 15px;
+                                                                            transition: all 0.3s ease;
+                                                                            color: white!important;
+                                                                            font-size: 15px;
+                                                                        }
+                                                                        
+                                                                        .icon3-bar a:hover {
+                                                                            background-color: #000;
+                                                                        }
+                                                                        
+                                                                        .facebook1 {
+                                                                            background: #3B5998;
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .twitter1 {
+                                                                            background: #55ACEE;
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .insta1 {
+                                                                            background: #dd4b39;
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .linkedin1 {
+                                                                            background: #007bb5;
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .content {
+                                                                            margin-left: 75px;
+                                                                            font-size: 30px;
+                                                                        }
+                                                                        
+                                                                        .whatsapp {
+                                                                            position: fixed;
+                                                                            width: 60px;
+                                                                            height: 60px;
+                                                                            bottom: 90px;
+                                                                            right: 30px;
+                                                                            background-color: #25d366;
+                                                                            color: #FFF!important;
+                                                                            border-radius: 50px;
+                                                                            text-align: center;
+                                                                            font-size: 30px;
+                                                                            box-shadow: 2px 2px 3px #999;
+                                                                            z-index: 100;
+                                                                        }
+                                                                        
+                                                                        .my-whatsapp {
+                                                                            margin-top: 16px;
+                                                                        }
+                                                                        
+                                                                        .icon4-bar :hover {
+                                                                            background-color: #000;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .icon3-bar a {
+                                                                                padding: 10px;
+                                                                            }
+                                                                            .whatsapp {
+                                                                                height: 50px;
+                                                                                width: 50px;
+                                                                            }
+                                                                            .my-whatsapp {
+                                                                                margin-top: 10px;
+                                                                            }
+                                                                        }
+                                                                        /* ==========sticky-icon-end==========*/
+                                                                        /* ==========header==========*/
+                                                                        
+                                                                        .header {
+                                                                            background-color: blue;
+                                                                        }
+                                                                        
+                                                                        .headericon {
+                                                                            word-spacing: 20px;
+                                                                            text-align: right;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:500px) {
+                                                                            .header {
+                                                                                font-size: 14px;
+                                                                            }
+                                                                            .headericon {
+                                                                                text-align: center;
+                                                                            }
+                                                                        }
+                                                                        /* ==========header-end==========*/
+                                                                        
+                                                                        .navbartop {
+                                                                            justify-content: center;
+                                                                            padding-left: 35%;
+                                                                        }
+                                                                        
+                                                                        a {
+                                                                            color: black!important;
+                                                                            text-decoration: none!important;
+                                                                        }
+                                                                        
+                                                                        span {
+                                                                            color: blue;
+                                                                        }
+                                                                        
+                                                                        .navbar2 {
+                                                                            font-size: 20px;
+                                                                        }
+                                                                        
+                                                                        .navbar2 a {
+                                                                            padding: 20px;
+                                                                            margin: 9px;
+                                                                        }
+                                                                        
+                                                                        .navbar3 a {
+                                                                            padding: 20px;
+                                                                            margin: 0px;
+                                                                        }
+                                                                        
+                                                                        .navbar-toggler-icon {
+                                                                            color: black!important;
+                                                                        }
+                                                                        
+                                                                        .navbar2 a:hover {
+                                                                            color: #1C6DD0!important;
+                                                                        }
+                                                                        
+                                                                        .navbar3 a:hover {
+                                                                            color: black!important;
+                                                                            background-color: rgb(124, 124, 185)!important;
+                                                                        }
+                                                                        
+                                                                        .shadow {
+                                                                            text-shadow: 4px 4px 8px gray;
+                                                                        }
+                                                                        
+                                                                        .shadow1 {
+                                                                            text-shadow: none;
+                                                                        }
+                                                                        /* ==========toggler-btn==========*/
+                                                                        
+                                                                        .navbar-toggler-icon {
+                                                                            background: black;
+                                                                            border: none;
+                                                                            padding: 10px 8px;
+                                                                            outline: none;
+                                                                        }
+                                                                        
+                                                                        .navbar-toggler-icon span {
+                                                                            display: block;
+                                                                            width: 22px;
+                                                                            height: 2px;
+                                                                            border: 2px;
+                                                                            background: white;
+                                                                        }
+                                                                        /* ==========slider==========*/
+                                                                        
+                                                                        .slider2 {
+                                                                            z-index: -1;
+                                                                        }
+                                                                        
+                                                                        .slider1 {
+                                                                            height: 750px;
+                                                                            /* padding-top: 120px; */
+                                                                        }
+                                                                        
+                                                                        .text {
+                                                                            position: absolute;
+                                                                            top: 65%;
+                                                                            left: 25%;
+                                                                            transform: translate(-65%, -25%);
+                                                                            color: black;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .button1 {
+                                                                            margin-right: 30px;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .text {
+                                                                                margin-top: -120px;
+                                                                            }
+                                                                        }
+                                                                        /* ==========about==========*/
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .img1 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .img11 {
+                                                                                width: 100%;
+                                                                                margin-left: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .about3 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                            .about3 p {
+                                                                                margin-left: 10px;
+                                                                                text-align: center;
+                                                                            }
+                                                                        }
+                                                                        /* .about1 p,
+                                                    h4 {
+                                                        text-align: center;
+                                                    } */
+                                                                        
+                                                                        .about1:hover {
+                                                                            border: 1px solid gray;
+                                                                        }
+                                                                        /* ==========service-start==========*/
+                                                                        
+                                                                        .content-103 {
+                                                                            background: #f3f3f3;
+                                                                            padding-bottom: 50px;
+                                                                            overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        .content-103 .sercies-title {
+                                                                            text-align: center;
+                                                                            padding: 50px 0;
+                                                                            margin-top: 30px;
+                                                                        }
+                                                                        
+                                                                        .service-post {
+                                                                            background: #fff;
+                                                                            padding: 30px;
+                                                                            text-align: center;
+                                                                            cursor: pointer;
+                                                                            position: relative;
+                                                                            z-index: 12;
+                                                                            margin-bottom: 30px;
+                                                                            -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+                                                                            -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+                                                                            box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-content {
+                                                                            position: relative;
+                                                                            z-index: 13;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-icon {
+                                                                            margin: 10px 0 20px 0;
+                                                                            width: 50px;
+                                                                            height: 50px;
+                                                                            border-radius: 25px;
+                                                                            text-align: center;
+                                                                            border: 2px solid rgb(175, 25, 25);
+                                                                            margin-left: auto;
+                                                                            margin-right: auto;
+                                                                            line-height: 50px;
+                                                                            -moz-transition: color, 250ms;
+                                                                            -o-transition: color, 250ms;
+                                                                            -webkit-transition: color, 250ms;
+                                                                            transition: color, 250ms;
+                                                                            overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-post:hover .service-icon {
+                                                                            border-color: #fff;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-icon i {
+                                                                            font-size: 18px;
+                                                                            color: rgb(175, 25, 25);
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-post:hover .service-icon i {
+                                                                            color: #fff;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-title {
+                                                                            font-size: 16px;
+                                                                            font-weight: normal;
+                                                                            margin-bottom: 15px;
+                                                                            -moz-transition: color, 250ms;
+                                                                            -o-transition: color, 250ms;
+                                                                            -webkit-transition: color, 250ms;
+                                                                            transition: color, 250ms;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-post:hover .service-title {
+                                                                            color: #fff;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-description {
+                                                                            -moz-transition: color, 250ms;
+                                                                            -o-transition: color, 250ms;
+                                                                            -webkit-transition: color, 250ms;
+                                                                            transition: color, 250ms;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-post:hover .service-description {
+                                                                            color: #fff;
+                                                                        }
+                                                                        
+                                                                        .content-103 .service-hover {
+                                                                            position: absolute;
+                                                                            top: 0;
+                                                                            left: 0;
+                                                                            z-index: 11;
+                                                                            width: 100%;
+                                                                            height: 0px;
+                                                                            background: blue;
+                                                                            -moz-transition: width, 250ms;
+                                                                            -o-transition: width, 250ms;
+                                                                            -webkit-transition: width, 250ms;
+                                                                            transition: width, 250ms;
+                                                                        }
+                                                                        /*hover-background-color effect*/
+                                                                        
+                                                                        .content-103 .service-post:hover .service-hover {
+                                                                            height: 100%;
+                                                                        }
+                                                                        /*service-media-query*/
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .service11 {
+                                                                                width: 100%;
+                                                                                margin-left: 10px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .service-description {
+                                                                                float: none!important;
+                                                                            }
+                                                                        }
+                                                                        /* ==========portfolio-section==========*/
+                                                                        
+                                                                        .overlay {
+                                                                            position: relative;
+                                                                            width: 50%;
+                                                                        }
+                                                                        
+                                                                        .image11 {
+                                                                            opacity: 1;
+                                                                            width: 350px;
+                                                                            height: 400px;
+                                                                            transition: .5s ease;
+                                                                            backface-visibility: hidden;
+                                                                        }
+                                                                        
+                                                                        .middle {
+                                                                            transition: .5s ease;
+                                                                            opacity: 0;
+                                                                            position: absolute;
+                                                                            top: 36%;
+                                                                            padding-left: 6pc;
+                                                                            font-size: 30px;
+                                                                        }
+                                                                        
+                                                                        .overlay:hover .image11 {
+                                                                            opacity: 0.6;
+                                                                        }
+                                                                        
+                                                                        .overlay:hover .middle {
+                                                                            opacity: 1;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .text {
+                                                                            color: black;
+                                                                            font-size: 40px;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .img12 img {
+                                                                                width: 200%!important;
+                                                                                margin-left: 10px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .text2 {
+                                                                                margin-right: 90px;
+                                                                                margin-bottom: 1000px
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .img14 img {
+                                                                                width: 200%;
+                                                                                margin-left: 10px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                        }
+                                                                        /* ==========testimonial-section==========*/
+                                                                        
+                                                                        .testimonials-section {
+                                                                            background: #fff;
+                                                                            height: 600px;
+                                                                            position: relative;
+                                                                            overflow: hidden;
+                                                                            display: -webkit-box;
+                                                                            display: -webkit-flex;
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -webkit-flex-flow: row nowrap;
+                                                                            -ms-flex-flow: row nowrap;
+                                                                            flex-flow: row nowrap;
+                                                                            -webkit-box-align: end;
+                                                                            -webkit-align-items: flex-end;
+                                                                            -ms-flex-align: end;
+                                                                            align-items: flex-end;
+                                                                            -webkit-box-pack: center;
+                                                                            -webkit-justify-content: center;
+                                                                            -ms-flex-pack: center;
+                                                                            justify-content: center;
+                                                                        }
+                                                                        
+                                                                        .slider__nav {
+                                                                            width: 12px;
+                                                                            height: 12px;
+                                                                            margin: 80px 12px;
+                                                                            border-radius: 50%;
+                                                                            z-index: 10;
+                                                                            outline: 6px solid #ccc;
+                                                                            outline-offset: -6px;
+                                                                            box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+                                                                            cursor: pointer;
+                                                                            -webkit-appearance: none;
+                                                                            -moz-appearance: none;
+                                                                            appearance: none;
+                                                                            -webkit-backface-visibility: hidden;
+                                                                            backface-visibility: hidden;
+                                                                        }
+                                                                        
+                                                                        .slider__nav:checked {
+                                                                            -webkit-animation: check 0.4s linear forwards;
+                                                                            animation: check 0.4s linear forwards;
+                                                                        }
+                                                                        
+                                                                        .slider__nav:checked:nth-of-type(1)~.slider__inner {
+                                                                            left: 0%;
+                                                                        }
+                                                                        
+                                                                        .slider__nav:checked:nth-of-type(2)~.slider__inner {
+                                                                            left: -100%;
+                                                                        }
+                                                                        
+                                                                        .slider__nav:checked:nth-of-type(3)~.slider__inner {
+                                                                            left: -200%;
+                                                                        }
+                                                                        
+                                                                        .slider__nav:checked:nth-of-type(4)~.slider__inner {
+                                                                            left: -300%;
+                                                                        }
+                                                                        
+                                                                        .slider__nav:checked:nth-of-type(5)~.slider__inner {
+                                                                            left: -400%;
+                                                                        }
+                                                                        
+                                                                        .slider__inner {
+                                                                            position: absolute;
+                                                                            top: 80px;
+                                                                            left: 0;
+                                                                            width: 500%;
+                                                                            height: auto;
+                                                                            -webkit-transition: left 0.4s;
+                                                                            transition: left 0.4s;
+                                                                            display: -webkit-box;
+                                                                            display: -webkit-flex;
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -webkit-flex-flow: row nowrap;
+                                                                            -ms-flex-flow: row nowrap;
+                                                                            flex-flow: row nowrap;
+                                                                        }
+                                                                        
+                                                                        .slider__contents {
+                                                                            height: 100%;
+                                                                            text-align: center;
+                                                                            display: -webkit-box;
+                                                                            display: -webkit-flex;
+                                                                            display: -ms-flexbox;
+                                                                            display: flex;
+                                                                            -webkit-box-flex: 1;
+                                                                            -webkit-flex: 1;
+                                                                            -ms-flex: 1;
+                                                                            flex: 1;
+                                                                            -webkit-flex-flow: column nowrap;
+                                                                            -ms-flex-flow: column nowrap;
+                                                                            flex-flow: column nowrap;
+                                                                            -webkit-box-align: center;
+                                                                            -webkit-align-items: center;
+                                                                            -ms-flex-align: center;
+                                                                            align-items: center;
+                                                                            -webkit-box-pack: center;
+                                                                            -webkit-justify-content: center;
+                                                                            -ms-flex-pack: center;
+                                                                            justify-content: center;
+                                                                        }
+                                                                        
+                                                                        .slider__caption {
+                                                                            font-size: 14px;
+                                                                            color: #111;
+                                                                            opacity: .5;
+                                                                            font-family: 'Roboto';
+                                                                            font-weight: bold;
+                                                                        }
+                                                                        
+                                                                        .slider__txt {
+                                                                            font-size: 22px;
+                                                                            font-weight: bold;
+                                                                            font-family: 'Roboto';
+                                                                            line-height: 1.7;
+                                                                            color: #111;
+                                                                            margin-top: -20px;
+                                                                            margin-bottom: 20px;
+                                                                            max-width: 750px;
+                                                                        }
+                                                                        
+                                                                        .img3 {
+                                                                            border: 1px solid black;
+                                                                            height: 100px;
+                                                                            width: 100px;
+                                                                        }
+                                                                        
+                                                                        @-webkit-keyframes check {
+                                                                            50% {
+                                                                                outline-color: #333;
+                                                                                box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+                                                                            }
+                                                                            100% {
+                                                                                outline-color: #333;
+                                                                                box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @keyframes check {
+                                                                            50% {
+                                                                                outline-color: #333;
+                                                                                box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+                                                                            }
+                                                                            100% {
+                                                                                outline-color: #333;
+                                                                                box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+                                                                            }
+                                                                        }
+                                                                        /* ==========footer-section==========*/
+                                                                        
+                                                                        #footer {
+                                                                            background: blueviolet;
+                                                                            /* padding: 0 0 30px 0; */
+                                                                            padding-bottom: -100px!important;
+                                                                            color: white;
+                                                                            font-size: 20px;
+                                                                            background: #f1f6fe;
+                                                                            padding-top: 60px;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-newsletter {
+                                                                            padding: 40px 0;
+                                                                            background: #f1f6fe;
+                                                                            text-align: center;
+                                                                            font-size: 15px;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-newsletter h4 {
+                                                                            font-size: 20px;
+                                                                            margin: 0 0 20px 0;
+                                                                            padding: 0;
+                                                                            line-height: 1;
+                                                                            font-weight: 600;
+                                                                            overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-newsletter form {
+                                                                            margin-top: 30px;
+                                                                            background: #fff;
+                                                                            padding: 6px 10px;
+                                                                            position: relative;
+                                                                            border-radius: 4px;
+                                                                            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+                                                                            text-align: left;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            #footer .footer-newsletter form {
+                                                                                margin-top: 70px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        #footer .footer-newsletter form input[type=email] {
+                                                                            border: 0;
+                                                                            padding: 4px 8px;
+                                                                            width: calc(100% - 100px);
+                                                                        }
+                                                                        
+                                                                        #footer .footer-newsletter form input[type=submit] {
+                                                                            position: absolute;
+                                                                            top: 0;
+                                                                            right: 0;
+                                                                            bottom: 0;
+                                                                            border: 0;
+                                                                            background: none;
+                                                                            font-size: 16px;
+                                                                            padding: 0 20px;
+                                                                            background: red!important;
+                                                                            color: #fff;
+                                                                            transition: 0.3s;
+                                                                            border-radius: 0 4px 4px 0;
+                                                                            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+                                                                        }
+                                                                        
+                                                                        #footer .footer-newsletter form input[type=submit]:hover {
+                                                                            background: red!important;
+                                                                            ;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top {
+                                                                            padding: 30px 0 30px 0;
+                                                                            background: #fff;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-contact {
+                                                                            margin-bottom: 30px;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-contact h3 {
+                                                                            font-size: 24px;
+                                                                            margin: 0 0 15px 0;
+                                                                            padding: 2px 0 2px 0;
+                                                                            line-height: 1;
+                                                                            font-weight: 700;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-contact h3 span {
+                                                                            color: #106eea;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-contact p {
+                                                                            font-size: 18px;
+                                                                            line-height: 24px;
+                                                                            margin-bottom: 0;
+                                                                            font-family: "Roboto", sans-serif;
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top h4 {
+                                                                            font-size: 20px;
+                                                                            font-weight: bold;
+                                                                            color: white;
+                                                                            position: relative;
+                                                                            padding-bottom: 12px;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links {
+                                                                            margin-bottom: 30px;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links ul {
+                                                                            list-style: none;
+                                                                            padding: 0;
+                                                                            margin: 0;
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links ul i {
+                                                                            padding-right: 2px;
+                                                                            color: #106eea;
+                                                                            font-size: 20px;
+                                                                            line-height: 1;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links ul li {
+                                                                            padding: 10px 0;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links ul li:first-child {
+                                                                            padding-top: 0;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links ul a {
+                                                                            color: white!important;
+                                                                            transition: 0.3s;
+                                                                            display: inline-block;
+                                                                            line-height: 1;
+                                                                            overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .footer-links ul a:hover {
+                                                                            text-decoration: none;
+                                                                            color: #106eea;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .social-links a {
+                                                                            font-size: 18px;
+                                                                            display: inline-block;
+                                                                            background: #106eea;
+                                                                            color: white;
+                                                                            line-height: 1;
+                                                                            padding: 8px 0;
+                                                                            margin-right: 4px;
+                                                                            border-radius: 4px;
+                                                                            text-align: center;
+                                                                            width: 36px;
+                                                                            height: 36px;
+                                                                            transition: 0.3s;
+                                                                        }
+                                                                        
+                                                                        #footer .footer-top .social-links a:hover {
+                                                                            background: #3b8af2;
+                                                                            color: #fff;
+                                                                            text-decoration: none;
+                                                                        }
+                                                                        
+                                                                        #footer .copyright {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        #footer .credits {
+                                                                            text-align: center;
+                                                                            font-size: 13px;
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 768px) {
+                                                                            #footer .copyright,
+                                                                            #footer .credits {
+                                                                                float: none;
+                                                                                text-align: center;
+                                                                                padding: 2px 0;
+                                                                            }
+                                                                        }
+                                                                        /* =========AboutUs-start==========*/
+                                                                        
+                                                                        h1 {
+                                                                            text-align: center;
+                                                                            font-family: fantasy;
+                                                                        }
+                                                                        
+                                                                        h2 {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .abou p {
+                                                                            text-align: center;
+                                                                            margin: auto;
+                                                                            font-size: 15px;
+                                                                            padding-bottom: 30px;
+                                                                            color: #535074;
+                                                                            width: 50%;
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 767px) {
+                                                                            .abou p {
+                                                                                width: 100%;
+                                                                                margin: auto;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .abou p {
+                                                                                width: 100%;
+                                                                                text-align: center;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .row {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .button2 {
+                                                                            text-align: center;
+                                                                            padding: 8px;
+                                                                            margin-left: 40%;
+                                                                            justify-content: center;
+                                                                        }
+                                                                        
+                                                                        .button3 {
+                                                                            text-align: center;
+                                                                            padding: 8px;
+                                                                            margin-left: 35%;
+                                                                            justify-content: center;
+                                                                        }
+                                                                        
+                                                                        .work:hover {
+                                                                            border: 3px solid white;
+                                                                            box-shadow: 2px 4px 8px 2px gray, 2px 6px 20px 4px gray;
+                                                                        }
+                                                                        
+                                                                        .aboutus1 {
+                                                                            margin-top: 110px;
+                                                                            background-color: #f3f3f3;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .about12 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .team11 p,
+                                                                        h5 {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .team11 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media screen and (max-width:600px) {
+                                                                            .aboutus1 p {
+                                                                                margin-left: 12px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media screen and (max-width:600px) {
+                                                                            .aboutus1 img {
+                                                                                width: 100%;
+                                                                                margin-left: 12px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .work {
+                                                                                width: 100%;
+                                                                                margin-left: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .aboutus2 {
+                                                                                width: 100%;
+                                                                                margin-left: 15px;
+                                                                            }
+                                                                        }
+                                                                        /* =========Best-agent==========*/
+                                                                        
+                                                                        .ser p {
+                                                                            text-align: center;
+                                                                            margin: auto;
+                                                                            font-size: 15px;
+                                                                            padding-bottom: 30px;
+                                                                            color: #535074;
+                                                                            width: 50%;
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 767px) {
+                                                                            .ser p {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .pagi {
+                                                                            color: black;
+                                                                            size: 10px;
+                                                                        }
+                                                                        
+                                                                        .pagi:hover {
+                                                                            color: darkgray;
+                                                                        }
+                                                                        
+                                                                        .card1 {
+                                                                            margin-left: 30px;
+                                                                            margin-top: -90px;
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .card1:hover {
+                                                                            font-size: 10px;
+                                                                            top: 0%;
+                                                                        }
+                                                                        
+                                                                        .ser {
+                                                                            margin-top: 150px;
+                                                                        }
+                                                                        
+                                                                        .cont {
+                                                                            position: relative;
+                                                                        }
+                                                                        
+                                                                        .center {
+                                                                            position: absolute;
+                                                                            top: 50%;
+                                                                            left: 50%;
+                                                                            transform: translate(-50%, -50%);
+                                                                            font-size: 30px;
+                                                                            border: 1px solid white;
+                                                                            background-color: white;
+                                                                            color: black;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .agen {
+                                                                                width: 100%;
+                                                                                margin-left: 10px;
+                                                                            }
+                                                                        }
+                                                                        /* =========rent-section-start==========*/
+                                                                        
+                                                                        .rent1 p {
+                                                                            margin-left: 15px;
+                                                                        }
+                                                                        
+                                                                        h1 {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .rent3 {
+                                                                            margin-top: 150px;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .rent3 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .card {
+                                                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(22, 17, 17, 0.19);
+                                                                        }
+                                                                        
+                                                                        .image {
+                                                                            border-radius: 10px 50px;
+                                                                            margin-top: 10px;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .row {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .card:hover {
+                                                                            box-shadow: 5px 14px 8px 0 rgba(85, 14, 216, 0.2), 0 6px 20px 0 rgba(19, 22, 206, 0.19);
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .rent11 {
+                                                                                width: 100%;
+                                                                                margin-left: 4%;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                            .rent11 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                            .rent11 p {
+                                                                                font-size: 13px;
+                                                                                margin-left: -6px;
+                                                                            }
+                                                                        }
+                                                                        /* =========selling-section-start==========*/
+                                                                        
+                                                                        h1 {
+                                                                            color: blue;
+                                                                            font-family: fantasy;
+                                                                        }
+                                                                        
+                                                                        .gallary1 {
+                                                                            margin-top: 150px;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .sell11 {
+                                                                                width: 100%;
+                                                                                margin-left: 4%;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                            .sell11 img {
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+                                                                        /* =========Contct-Section==========*/
+                                                                        
+                                                                        .container3 {
+                                                                            margin-top: 150px;
+                                                                        }
+                                                                        
+                                                                        h1 {
+                                                                            text-align: center;
+                                                                            font-family: fantasy;
+                                                                        }
+                                                                        
+                                                                        .btn {
+                                                                            padding: 5px;
+                                                                            border: 1px solid black;
+                                                                            background-color: blue;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .contact11 {
+                                                                                text-align: center;
+                                                                                margin-left: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .address,
+                                                                            p {
+                                                                                text-align: center;
+                                                                                float: left;
+                                                                            }
+                                                                        }
+                                                                        /* =========footer-start==========*/
+                                                                        /* .footer1 {
+                                                        background-color: black;
+                                                        color: white;
+                                                        padding: 8px;
+                                                    }
+                                                    
+                                                    .social-buttons {
+                                                        font-size: 30px;
+                                                    }
+                                                    
+                                                    .footer p {
+                                                        text-align: center;
+                                                        color: white;
+                                                    } */
+                                                                        /* portfolic-section */
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .img12 img {
+                                                                                width: 100%;
+                                                                                margin-left: 10px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .text {
+                                                                                margin-right: 90px;
+                                                                                margin-bottom: 1000px
+                                                                            }
+                                                                        }
+                                                                        /* =========button-blinking==========*/
+                                                                        
+                                                                        .btn1 {
+                                                                            background-color: #004A7F;
+                                                                            -webkit-border-radius: 10px;
+                                                                            border-radius: 10px;
+                                                                            border: none;
+                                                                            color: #FFFFFF;
+                                                                            cursor: pointer;
+                                                                            display: inline-block;
+                                                                            font-family: Arial;
+                                                                            font-size: 20px;
+                                                                            padding: 5px 10px;
+                                                                            text-align: center;
+                                                                            text-decoration: none;
+                                                                            -webkit-animation: glowing 6500ms infinite;
+                                                                            -moz-animation: glowing 6500ms infinite;
+                                                                            -o-animation: glowing 6500ms infinite;
+                                                                            animation: glowing 6500ms infinite;
+                                                                        }
+                                                                        
+                                                                        @-webkit-keyframes glowing {
+                                                                            0% {
+                                                                                background-color: #B20000;
+                                                                                -webkit-box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                            50% {
+                                                                                background-color: #ec6464;
+                                                                                -webkit-box-shadow: 0 0 40px #FF0000;
+                                                                            }
+                                                                            100% {
+                                                                                background-color: #B20000;
+                                                                                -webkit-box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @-moz-keyframes glowing {
+                                                                            0% {
+                                                                                background-color: #B20000;
+                                                                                -moz-box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                            50% {
+                                                                                background-color: #FF0000;
+                                                                                -moz-box-shadow: 0 0 40px #FF0000;
+                                                                            }
+                                                                            100% {
+                                                                                background-color: #B20000;
+                                                                                -moz-box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @-o-keyframes glowing {
+                                                                            0% {
+                                                                                background-color: #B20000;
+                                                                                box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                            50% {
+                                                                                background-color: #FF0000;
+                                                                                box-shadow: 0 0 40px #FF0000;
+                                                                            }
+                                                                            100% {
+                                                                                background-color: #B20000;
+                                                                                box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @keyframes glowing {
+                                                                            0% {
+                                                                                background-color: #B20000;
+                                                                                box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                            50% {
+                                                                                background-color: #FF0000;
+                                                                                box-shadow: 0 0 40px #FF0000;
+                                                                            }
+                                                                            100% {
+                                                                                background-color: #B20000;
+                                                                                box-shadow: 0 0 3px #B20000;
+                                                                            }
+                                                                        }
+                                                                        /* =========blog-section==========*/
+                                                                        
+                                                                        .blog1 {
+                                                                            margin-top: 70px;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .entry-meta {
+                                                                                text-align: center;
+                                                                                display: flex;
+                                                                                margin-right: 20px;
+                                                                            }
+                                                                            .text3 {
+                                                                                text-align: center;
+                                                                                margin-right: 20px;
+                                                                            }
+                                                                            .blog1 {
+                                                                                margin-left: 10px!important;
+                                                                            }
+                                                                            .blog1 img {
+                                                                                width: 100%;
+                                                                                height: 400px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width:600px) {
+                                                                            .blog2 {
+                                                                                margin-left: 20px;
+                                                                                margin-bottom: 15px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        #myBtn {
+                                                                            display: none;
+                                                                            position: fixed;
+                                                                            bottom: 8px;
+                                                                            right: 30px;
+                                                                            z-index: 99;
+                                                                            font-size: 18px;
+                                                                            border: none;
+                                                                            outline: none;
+                                                                            background-color: red;
+                                                                            color: white;
+                                                                            cursor: pointer;
+                                                                            padding: 15px;
+                                                                            border-radius: 4px;
+                                                                        }
+                                                                        
+                                                                        #myBtn:hover {
+                                                                            background-color: #555;
+                                                                        }
